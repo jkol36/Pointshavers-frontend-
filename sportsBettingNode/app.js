@@ -12,7 +12,7 @@ const jwt = require('./_helpers/jwt');
 
 
 // Our error handler
-const errorHandler = require('./_helpers/error-handler');
+let errorHandler = require('./_helpers/error-handler');
 
 
 app.use(bodyParser.urlencoded({ extended: false }));
